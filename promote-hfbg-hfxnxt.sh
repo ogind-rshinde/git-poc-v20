@@ -92,7 +92,7 @@ then
     done
     hotfixBranch='hotfix/next'
     gh pr create -t "Merge hfhn branch for $BRANCH to hotfix/next branch" -b "Hotfix PR merge to hotfix/next branch" -B "$hotfixBranch"
-    hfbgBranchName="${BRANCH/hfrn/hfbg}"
+    hfbgBranchName="${BRANCH/hfhn/hfbg}"
     git checkout $hfbgBranchName
 else
     echo "$(tput setaf 1) ***** This script is applicable only for hfbg and hfhn prefix branches! **** "
