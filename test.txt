@@ -1,4 +1,4 @@
-test1 F5-1 C1
+test1 F5-1 C1 hotfix chintan
 test2 D1
 test3 E1
 KA-0001 F1 - QA-009
@@ -8,4 +8,3 @@ chintan f1
 ganesh qa bug fix 1
 ganesh qa bug fix 2
 chintan f2
-hotfix chintan
